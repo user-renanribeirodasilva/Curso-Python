@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 """
-**Módulo Random - Exercício 2: Simulador de Lançamento de Moeda**
+**Módulo Random - Exercício 1: Simulador de Lançamento de Moeda**
 
 **Objetivo:**
 Criar um programa que simula o lançamento de uma moeda várias vezes e conta quantas vezes o resultado foi "Cara" e quantas vezes foi "Coroa".

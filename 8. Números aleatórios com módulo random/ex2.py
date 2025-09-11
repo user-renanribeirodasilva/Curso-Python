@@ -1,6 +1,5 @@
-import random
 """
-**Módulo Random - Exercício 3: Simulador de Lançamento de Dado**
+**Módulo Random - Exercício 2: Simulador de Lançamento de Dado**
 
 **Objetivo:**
 Criar um programa que simula o lançamento de um dado de seis lados (D6) várias vezes e mostra a frequência de cada resultado.
@@ -41,6 +40,7 @@ Face 6: 1682 vezes
 """
 
 # --- Início do seu código ---
+import random
 
 contagem = 0
 face1 = 0  
