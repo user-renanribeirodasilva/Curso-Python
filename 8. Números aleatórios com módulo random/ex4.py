@@ -67,7 +67,7 @@ distancia_total = 100
 posicao_caracolA = 0
 posicao_caracolB = 0
 
-rodadas_corridas = 1
+rodadas_corridas = 0
 
 while posicao_caracolA < distancia_total and posicao_caracolB < distancia_total:
     rodadas_corridas += 1
@@ -81,7 +81,7 @@ if posicao_caracolA >= distancia_total and posicao_caracolB >= distancia_total:
     print(f'Houve empate entre o Caracol A e o Caracol B: {rodadas_corridas} rodadas!')
 elif posicao_caracolA >= distancia_total:
     print(f'O Caracol A venceu a corrida em {rodadas_corridas} rodadas!')
-else:
+elif posicao_caracolB >= distancia_total:
     print(f'O Caracol B venceu a corrida em {rodadas_corridas} rodadas!')
 
 # --- Fim do seu código ---
