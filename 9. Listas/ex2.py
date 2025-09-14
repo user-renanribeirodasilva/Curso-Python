@@ -49,5 +49,4 @@ while len(numeros_sorteados) < 6:
         numeros_sorteados.append(numero_sorteado)
 print(f'Os números sorteados foram: {numeros_sorteados}')
 
-
 # --- Fim do seu código ---
